@@ -84,11 +84,11 @@ const Model = () => {
             <Canvas
               className="w-full h-full"
               style={{
-                position: 'fixed',
-                top: 0,
-                bottom: 0,
-                left: 0,
-                right: 0,
+                 position: 'fixed',
+                 top: 0,
+                 bottom: 0,
+                 left: 0,
+                 right: 0,
                 overflow: 'hidden'
               }}
               eventSource={document.getElementById('root')}

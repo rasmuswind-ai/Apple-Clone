@@ -3,6 +3,8 @@ import Highlights from "./components/Highlights"
 import Navbar from "./components/Navbar"
 import Model from "./components/Model"
 import Features from "./components/Features"
+import HowItWorks from "./components/HowItWorks"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
       <Highlights />
       <Model />
       <Features />
+      <HowItWorks />
+      <Footer />
     </main>
   )
 }
