@@ -16,7 +16,6 @@ function Navbar() {
             </div>
 
             <div className="flex items-baseline gap-7 max-sm:justify-end max-sm:flex-1">
-                <img src={searchImg} alt="search" width={18} height={18} />
                 <img src={bagImg} alt="bag" width={18} height={18} />
             </div>
         </nav>
